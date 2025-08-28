@@ -1,0 +1,55 @@
+{
+  "generated_at": "2025-08-28T12:25:26.699400Z",
+  "inputs": {
+    "daily_document_volume": 1000000,
+    "document_types": 50,
+    "languages": 40,
+    "team_size": 15,
+    "target_timeline_months": 18,
+    "real_time_required": true,
+    "complexity_level": "enterprise",
+    "region": "India",
+    "historical_dataset_size": 2500000,
+    "human_validated_samples": 500000,
+    "document_categories": 500,
+    "existing_ocr_data": true,
+    "existing_classification_models": true,
+    "challenging_scenarios_pct": 0.3
+  },
+  "summary": {
+    "timeline_months": 21,
+    "total_effort_person_months": 319,
+    "team_size": 15,
+    "total_cost": 891450,
+    "salary_cost": 787500,
+    "infrastructure_cost": 103950,
+    "monthly_burn_rate": 42450,
+    "currency": "\u20b9"
+  },
+  "scenarios": {
+    "best": {
+      "effort_person_months": 255,
+      "timeline_months_estimate_low_team": 21,
+      "timeline_months_estimate_high_team": 14,
+      "best_case_cost": 699300,
+      "expected_cost": 891450,
+      "worst_case_cost": 733950
+    },
+    "expected": {
+      "effort_person_months": 319,
+      "timeline_months_estimate_low_team": 26,
+      "timeline_months_estimate_high_team": 17,
+      "best_case_cost": 849150,
+      "expected_cost": 891450,
+      "worst_case_cost": 908700
+    },
+    "worst": {
+      "effort_person_months": 446,
+      "timeline_months_estimate_low_team": 37,
+      "timeline_months_estimate_high_team": 24,
+      "best_case_cost": 1198800,
+      "expected_cost": 891450,
+      "worst_case_cost": 1293150
+    }
+  }
+}

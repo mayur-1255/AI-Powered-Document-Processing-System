@@ -1,0 +1,28 @@
+{
+  "summary": {
+    "timeline_months": 25,
+    "total_effort_months": 250,
+    "team_size": 15,
+    "total_cost": 155156250.0,
+    "salary_cost": 147656250.0,
+    "infrastructure_cost": 7500000.0,
+    "monthly_burn_rate": 6206250.0
+  },
+  "inputs": {
+    "daily_document_volume": 1000000,
+    "document_types": 50,
+    "languages": 40,
+    "team_size": 15,
+    "target_timeline_months": 18,
+    "real_time_required": true,
+    "complexity_level": "enterprise",
+    "region": "India",
+    "historical_dataset_size": 2500000,
+    "human_validated_samples": 500000,
+    "document_categories": 500,
+    "existing_ocr_data": true,
+    "existing_classification_models": true,
+    "challenging_scenarios_pct": 0.3
+  },
+  "generated_at": "2025-08-28T17:45:00"
+}
